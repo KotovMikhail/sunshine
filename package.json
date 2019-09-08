@@ -1,8 +1,8 @@
 {
-  "name": "rukami",
+  "name": "voshod",
   "version": "1.0.0",
   "private": true,
-  "description": "Руками",
+  "description": "Тестовое задание",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",

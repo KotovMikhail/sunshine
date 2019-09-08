@@ -1,4 +1,7 @@
-# rukami
+# voshod
+
+# Посмотреть сайт можно по ссылке:
+https://kotovmikhail.github.io/voshod/build/
 
 ## Установка и сборка
 
