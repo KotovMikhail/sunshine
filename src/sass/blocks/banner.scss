@@ -1,0 +1,10 @@
+.banner {
+  width: 100%;
+  max-width: size(1440px);
+  height: auto;
+  display: block;
+
+  &-wrapper {
+    margin-bottom: 50px;
+  }
+}

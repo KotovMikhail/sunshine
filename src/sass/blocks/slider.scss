@@ -1,0 +1,57 @@
+.slider {
+  // width: 2304px;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+
+  &__slides {
+    position: relative;
+    left: -780px;
+    width: 8000px;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 0.5s;
+  }
+
+  &__item {
+    position: relative;
+    width: 1300px;
+    opacity: 0.5;
+  }
+
+  &__img {
+    width: 100%;
+    max-height: unset;
+    height: 600px;
+  }
+}
+
+.button-block {
+  position: absolute;
+  background-color: red;
+  bottom: 50%;
+  left: 80px;
+  width: 100%;
+  z-index: 5;
+}
+
+.left-btn,
+.right-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: blueviolet;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.left-btn {
+  left: -50px;
+}
+
+.right-btn {
+  right: 0;
+}
+
+.active {
+}

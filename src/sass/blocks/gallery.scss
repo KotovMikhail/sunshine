@@ -2,16 +2,12 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  &__banner-wrapper {
-    margin-bottom: 50px;
+  &--big {
+    .container {
+      max-width: 100%;
+    }
   }
 
-  &__banner {
-    width: 100%;
-    max-width: size(1440px);
-    height: auto;
-    display: block;
-  }
 
   &__list {
     @include list-reset;

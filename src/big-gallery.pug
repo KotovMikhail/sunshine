@@ -1,57 +1,52 @@
 include pug/layout
-
   block content
-    .gallery
+    .gallery.gallery--big
       .container
-        .banner-wrapper
-          img.banner(src="img/banner.jpg" width="2560" height="1440" alt="Баннер")
-
-        .gallery__wrapper
-          ul.gallery__list
-            li.gallery__item
-              a.gallery__link(href="big-gallery.html" title="Ссылка")
-                .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-1.jpg" width="768" height="1280" alt="Первая картинка")
-                .gallery__content
-                  h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
-
-            li.gallery__item
+        .gallery__wrapper.slider
+          ul.gallery__list.slider__slides
+            li.gallery__item.slider__item
               a.gallery__link(href="#" title="Ссылка")
                 .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-2.jpg" width="768" height="1280" alt="Вторая картинка")
+                  img.gallery__img.slider__img(src="img/small-img-1.jpg" width="768" height="1280" alt="Первая картинка")
                 .gallery__content
                   h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
 
-            li.gallery__item
+            li.gallery__item.slider__item
               a.gallery__link(href="#" title="Ссылка")
                 .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-3.jpg" width="768" height="1280" alt="Третья картинка")
+                  img.gallery__img.slider__img(src="img/small-img-2.jpg" width="768" height="1280" alt="Вторая картинка")
                 .gallery__content
                   h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
 
-            li.gallery__item
+
+            li.gallery__item.slider__item
               a.gallery__link(href="#" title="Ссылка")
                 .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-4.jpg" width="768" height="1280" alt="Четвёртая картинка")
+                  img.gallery__img.slider__img(src="img/small-img-3.jpg" width="768" height="1280" alt="Третья картинка")
                 .gallery__content
                   h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
 
-            li.gallery__item
+            li.gallery__item.slider__item
               a.gallery__link(href="#" title="Ссылка")
                 .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-5.jpg" width="768" height="1280" alt="Пятая картинка")
+                  img.gallery__img.slider__img(src="img/small-img-4.jpg" width="768" height="1280" alt="Четвёртая картинка")
                 .gallery__content
                   h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
 
-            li.gallery__item
+            li.gallery__item.slider__item
               a.gallery__link(href="#" title="Ссылка")
                 .gallery__img-wrapper
-                  img.gallery__img(src="img/small-img-6.jpg" width="768" height="1280" alt="Шестая картинка")
+                  img.gallery__img.slider__img(src="img/small-img-5.jpg" width="768" height="1280" alt="Пятая картинка")
                 .gallery__content
                   h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
-                  span.gallery__date 16:22, 01 мая 2019г
+
+            li.gallery__item.slider__item
+              a.gallery__link(href="#" title="Ссылка")
+                .gallery__img-wrapper
+                  img.gallery__img.slider__img(src="img/small-img-6.jpg" width="768" height="1280" alt="Шестая картинка")
+                .gallery__content
+                  h3.gallery__caption Большой заголовок статьи, очень длинный и явно не короткий
+
+          .button-block
+            .left-btn <
+          //-   .right-btn >
